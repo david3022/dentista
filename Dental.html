@@ -150,6 +150,14 @@ body {
     overflow: hidden;
 }
 
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    height:90vh;
+    
+    opacity: 1; /* Para que no opaque demasiado el texto */
+    z-index: 0; /* Detrás del contenido */
+}
 
 .hero {
     position: relative;
@@ -164,14 +172,7 @@ body {
     overflow: hidden;
 }
 
-.hero-image {
-    position: absolute;
-    bottom: 0;
-    height:90vh;
-    
-    opacity: 1; /* Para que no opaque demasiado el texto */
-    z-index: 0; /* Detrás del contenido */
-}
+
 
 /* Asegurar que el contenido esté encima */
 .hero-content {
