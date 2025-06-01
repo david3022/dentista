@@ -150,14 +150,6 @@ body {
     overflow: hidden;
 }
 
-.hero-image {
-    position: absolute;
-    bottom: 0;
-    height:90vh;
-    
-    opacity: 1; /* Para que no opaque demasiado el texto */
-    z-index: 0; /* Detrás del contenido */
-}
 
 .hero {
     position: relative;
@@ -181,6 +173,16 @@ body {
     max-width: 700px;
     animation: fadeInHero 1s ease-out forwards;
 }
+
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    height:90vh;
+    
+    opacity: 1; /* Para que no opaque demasiado el texto */
+    z-index: 0; /* Detrás del contenido */
+}
+
 
 /* Para que la imagen se ajuste en móviles */
 @media (max-width: 768px) {
